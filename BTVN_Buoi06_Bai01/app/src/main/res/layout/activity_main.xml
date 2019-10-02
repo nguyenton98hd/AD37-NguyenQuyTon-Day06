@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@mipmap/thadieu"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#0000FF"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="90dp"/>
+
+
+
+        <LinearLayout
+
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/vien">
+            <EditText
+                android:id="@+id/user"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="240dp"
+                android:layout_height="31dp"
+                android:background="@android:color/transparent"
+                android:hint="User Name"
+                android:textColorHint="#ffffff"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/aaa"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/vien">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="240dp"
+                android:layout_height="33dp"
+                android:background="@android:color/transparent"
+                android:hint="Password"
+                android:textColorHint="#ffffff"
+                android:textSize="15dp" />
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/clock"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textColor="#0000FF"
+            android:layout_marginTop="20dp"
+            android:textSize="13dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="240dp"
+            />
+    <TextView
+        android:id="@+id/tb"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#960018	"
+        android:layout_marginLeft="50dp"/>
+        <Button
+            android:id="@+id/login"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"/>
+
+    </LinearLayout>
+
+
